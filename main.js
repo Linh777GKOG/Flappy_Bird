@@ -7,3 +7,9 @@ var birdimg = new Image();
 var hinhnenchinh = new Image();
 var ongtren = new Image();
 var ongduoi = new Image();
+
+birdimg.src = "images/bird.png";
+hinhnenchinh.src = "images/nenchinh.png";
+ongtren.src = "images/ongtren.png";
+ongduoi.src = "images/ongduoi.png";
+// dau tien la nap hinh vo
