@@ -28,3 +28,10 @@ ong[0] = {
   x: canvas.width,
   y: 0,
 };
+
+function run() {
+  //load hinh
+  context.drawImage(hinhnenchinh, 0, 0);
+  context.drawImage(birdimg, bird.x, bird.y);
+}
+run();
