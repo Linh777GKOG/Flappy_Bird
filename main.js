@@ -17,7 +17,14 @@ ongduoi.src = "images/ongduoi.png";
 var score = 0;
 var khoangcachhaiong = 140; //al
 var khoangcachdenongduoi; // bien nay la khoang cach tu dau ong tren den ong duoi.
+// taora 1 object chim
 var bird = {
   x: hinhnenchinh.width / 5,
   y: hinhnenchinh.height / 2,
+};
+
+var ong = []; //tao mang ong de chua cac ong di chuyen
+ong[0] = {
+  x: canvas.width,
+  y: 0,
 };
