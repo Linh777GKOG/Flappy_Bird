@@ -13,3 +13,11 @@ hinhnenchinh.src = "images/nenchinh.png";
 ongtren.src = "images/ongtren.png";
 ongduoi.src = "images/ongduoi.png";
 // dau tien la nap hinh vo
+
+var score = 0;
+var khoangcachhaiong = 140; //al
+var khoangcachdenongduoi; // bien nay la khoang cach tu dau ong tren den ong duoi.
+var bird = {
+  x: hinhnenchinh.width / 5,
+  y: hinhnenchinh.height / 2,
+};
